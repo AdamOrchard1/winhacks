@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <script src="computation.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>
+        Typing Test!
+    </title>
+</head>
+<body>
+    <h1><center>Typing Test</center></h1>
+    
+    <!--<input name="text" type="text" id="wordenter"/>-->
+    <p id="word"></p>
+    <p id="textbox">
+        
+    </p>
+    <center id="results">
+    <span id="wpm"></span>
+    <span id="correct"></span>
+    <span id="incorrect"></span>
+    <span id="accuracy"></span>
+    </center>
+    <div id="buttons">
+        
+        <p>
+            <button id="btn1" onclick="startGame()">Start Game</button>
+            <button onclick="resetGame()">Restart</button>
+        </p>
+    </div>
+    <div id = "difficulty">
+        <p>
+            <button id="Words5" onclick="easyDifficulty()">5 Words</button>
+            <button id="Words10" onclick="hardDifficulty()">20 Words</button>
+        </p>
+    </div>
+    
+    <h6>The standard amount of words is 10.</h6>
+    <small><center>WinHacks 2021 Submission by Nick Boisclair and Adam Orchard </center></small>
+
+</body>
+</html>
